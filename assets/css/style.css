@@ -1,0 +1,35 @@
+.title{
+  font-family: "Exile", system-ui;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.main-header-dev {
+    background-color:lightblue;
+    display: flex;
+    align-items: center;
+}
+.header-left-side{
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+.header-right-side{
+    display: flex;
+    width: 50%;
+    height: auto;
+    justify-content: right;
+    align-items: center;
+}
+
+.header-left-side .logo img{
+    width: 50px;
+    height: auto;
+    margin: 15px;
+}
+.header-right-side input{
+    cursor: text;
+    border: 1px solid;
+    border-color: blue;
+    margin:15px;
+}
